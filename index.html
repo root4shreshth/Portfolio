@@ -20,7 +20,7 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <a href="#" class="logo">hype4Shreshth<span>.</span></a>
+            <a href="#home" class="logo">hype4Shreshth<span>.</span></a>
             <nav class="navbar">
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
@@ -120,66 +120,50 @@
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="section projects">
-        <div class="container">
-            <h2 class="section-title">Featured <span>Projects</span></h2>
-            <div class="projects-grid">
-                <div class="project-card glass-card">
-                    <div class="project-image">
-                        <img src="images/navisphere.png" alt="Project 1">
-                    </div>
-                    <h3 class="project-title">Navisphere</h3>
-                    <p class="project-description">
-                        <li>Smart indoor navigation solution for hospitals, universities, and transit hubs.</li>
-                        <li>Features QR-based location tracking, offline maps, and emergency routing.</li>
-                        <li>Developed during a hackathon, including UI prototyping and user research.</li>
-                        <li>Focused on solving real-world issues in areas with weak GPS signals.</li>
-                    </p>
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <a href="https://navispheres.netlify.app/" class="project-link" target="blank">View Project <i class="fas fa-external-link-alt"></i></a>
-                </div>
-                <div class="project-card glass-card">
-                    <div class="project-image">
-                        <img src="images/shoes.png" alt="Project 2">
-                    </div>
-                    <h3 class="project-title">STEP – Shoe E-commerce Landing Page</h3>
-                    <p class="project-description">
-                        <li>Modern product showcase page for a premium footwear brand.</li>
-                        <li>Features a glassmorphic hero section, 3D shoe render, and color selection options.</li>
-                        <li>ncludes clean top navigation (Men, Women, New Arrivals, Collections) and minimal UI for seamless user experience.</li>
-                        <li>Built to demonstrate front-end skills in layout composition, responsive design, and visual storytelling.</li>
-                    </p>
-                    <div class="project-tech">
-                        <span>Html</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-                    <a href="https://stepshoe.netlify.app/" class="project-link" target="_blank">View Project <i class="fas fa-external-link-alt"></i></a>
-                </div>
-                <div class="project-card glass-card">
-                    <div class="project-image">
-                        <img src="images/Snowvia ui.png" alt="Project 3">
-                    </div>
-                    <div class="project-image">
-                        <img src="images/Astro A50 X UI.png" alt="Project 3">
-                    </div>
-                    <h3 class="project-title">Ui designs</h3>
-                    <p class="project-description">By-figma</p>
-                    <div class="project-tech">
-                        <span>Figma</span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <a href="#" class="project-link">View Project <i class="fas fa-external-link-alt"></i></a>
-                </div>
-            </div>
+  <section id="projects" class="section projects">
+  <div class="container">
+    <h2 class="section-title">Featured <span>Projects</span></h2>
+    
+    <!-- Category Cards Grid -->
+    <div class="category-grid">
+      <!-- Category 1: Web Projects -->
+      <div class="category-card" data-category="web">
+        <div class="category-content">
+          <h3>Web Projects</h3>
+          <p>Interactive frontend experiences</p>
+          <div class="tech-preview">
+            <span>HTML/CSS</span>
+            <span>JavaScript</span>
+          </div>
         </div>
-    </section>
+      </div>
+      
+      <!-- Category 2: UI/UX -->
+      <div class="category-card" data-category="ui">
+        <div class="category-content">
+          <h3>UI/UX Designs</h3>
+          <p>Figma prototypes & case studies</p>
+          <div class="tech-preview">
+            <span>Figma</span>
+            <span>User Research</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal (Hidden by default) -->
+    <div class="projects-modal" id="modal">
+      <div class="modal-content">
+        <button class="close-modal">&times;</button>
+        <h3 class="modal-title">Web Projects</h3>
+        <div class="modal-projects-grid">
+          <!-- Dynamically injected project cards -->
+          <!-- Your existing project cards go here -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
     <!-- Skills Section -->
     <section id="skills" class="section skills">
