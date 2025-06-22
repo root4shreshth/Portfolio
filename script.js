@@ -139,13 +139,22 @@ document.addEventListener('DOMContentLoaded', function() {
     // Project data (could be fetched from JSON)
     const projectsData = {
       web: [
+
         {
-          title: "Navisphere",
-          image: "images/navisphere.png",
-          description: "Smart indoor navigation solution for hospitals...",
-          tech: ["HTML", "CSS", "JavaScript"],
-          link: "https://navispheres.netlify.app/"
+          title: "Sample gym Website",          // Project name
+          image: "images/gym2.png",  // Path to image
+          description: "Modern gym website with responsive design and interactive features.", // Short description
+          tech: ["HTML", "CSS", "JavaScript", "Gsap Animation"],       // Technologies used
+          link: "https://fit4.netlify.app/"  // Live demo URL
         },
+        {
+          title: "Sample gym Website",          // Project name
+          image: "images/gym.png",  // Path to image
+          description: "Modern gym website with responsive design and interactive features.", // Short description
+          tech: ["HTML", "CSS", "JavaScript"],       // Technologies used
+          link: "https://right2fitness.netlify.app/"  // Live demo URL
+        },
+        
         {
           title: "STEP – Shoe E-commerce",
           image: "images/shoes.png",
@@ -154,13 +163,18 @@ document.addEventListener('DOMContentLoaded', function() {
           link: "https://stepshoe.netlify.app/"
         },
 
-         {
-      title: "Sample gym Website",          // Project name
-      image: "images/gym.png",  // Path to image
-      description: "Modern gym website with responsive design and interactive features.", // Short description
-      tech: ["HTML", "CSS", "JavaScript"],       // Technologies used
-      link: "https://right2fitness.netlify.app/"  // Live demo URL
-    }
+
+        {
+          title: "Navisphere",
+          image: "images/navisphere.png",
+          description: "Smart indoor navigation solution for hospitals...",
+          tech: ["HTML", "CSS", "JavaScript"],
+          link: "https://navispheres.netlify.app/"
+        },
+        
+        
+        
+    
       ],
       ui: [
         {
