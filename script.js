@@ -154,7 +154,7 @@ document.addEventListener('DOMContentLoaded', function() {
           tech: ["HTML", "CSS", "JavaScript"],       // Technologies used
           link: "https://right2fitness.netlify.app/"  // Live demo URL
         },
-        {
+         {
           title: "Brewhaven cafe",
           image: "images/brewhaven.png",
           description: "Craft beer e-commerce site with modern design...",
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', function() {
           link: "https://navispheres.netlify.app/"
         },
         
-        
+       
         
         
     
