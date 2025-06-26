@@ -154,7 +154,21 @@ document.addEventListener('DOMContentLoaded', function() {
           tech: ["HTML", "CSS", "JavaScript"],       // Technologies used
           link: "https://right2fitness.netlify.app/"  // Live demo URL
         },
+        {
+          title: "Brewhaven cafe",
+          image: "images/brewhaven.png",
+          description: "Craft beer e-commerce site with modern design...",
+          tech: ["HTML", "CSS", "JavaScript, Gsap Animation,venta.js"],
+          link: "https://brewhawencafe.netlify.app/"
+        },
         
+        {
+          title: "Baniyantree cafe",
+          image: "images/baniyantreecafe.png",
+          description: "Elegant cafe website with responsive design and interactive features.",
+          tech: ["HTML", "CSS", "JavaScript, Gsap Animation,venta.js"],
+          link: "https://banyantreecafe.netlify.app/"
+        },
         {
           title: "STEP – Shoe E-commerce",
           image: "images/shoes.png",
@@ -171,6 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
           tech: ["HTML", "CSS", "JavaScript"],
           link: "https://navispheres.netlify.app/"
         },
+        
         
         
         
